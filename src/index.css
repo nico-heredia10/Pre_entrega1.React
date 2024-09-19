@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: auto;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(232, 170, 13, 0.5);
+}
+
+.barraNav{
+  margin-top: 20px;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  
+}
+
+.barraNav img{
+
+  width: 600px;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.barraNav div{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main{
+  
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+}
