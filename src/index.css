@@ -27,7 +27,7 @@ body{
   width: 600px;
   height: 100%;
   object-fit: cover;
-
+  margin-right: 40px;
 }
 
 .barraNav div{
@@ -35,6 +35,53 @@ body{
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.barraNav div .divCarrito{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.barraNav div .divCarrito img{
+
+  width: 50px;
+  height: 40px;
+  object-fit: cover;
+  cursor:  pointer;
+
+}
+
+.barraNav div .divCarrito span{
+
+  font-size: 25px;
+  font-weight: 900;
+  position: relative;
+  right: 50px;
+}
+
+.barraNav div .divBotones{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.barraNav div .divBotones button{
+
+  width: 100px;
+  height: 25px;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor:pointer;
+  color: #FFCD02;
+  background-color: #2B72FE;
 }
 
 main{
