@@ -1,12 +1,10 @@
-import Cards from '../reutilizables/Cards';
 
 
 const Main = ()=>{
 
     return <main>
-
-        <h1>Productos Cards</h1>
-        <Cards />
+        <h1>Bienvenidos a mi tienda</h1>
+        
     </main>
 }
 

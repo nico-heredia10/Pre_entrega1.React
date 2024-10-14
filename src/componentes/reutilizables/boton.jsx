@@ -1,10 +1,14 @@
 
 
-const BotonA = (props)=>{
-    console.log(props);
+const Boton = (props)=>{
+    const {clave, valor} = props
+    // const navigate = useNavigate();
+
+    const atributo = clave === 'class' ? 'className' : 'id';
+
     return <>
-        <button className="boton" onClick={props.onClick}>{props.texto}</button>
+        <button onClick={props.onClick} {...{[atributo]: valor}} >{props.text}</button>
     </>
 }
 
-export default BotonA;
+export default Boton;

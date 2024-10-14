@@ -1,13 +1,11 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 
 function Carrito (){
     const [contador, setContador] = useState(0)
 
-    return <div className="divCarrito">
-        <img src="../../Icono.carrito.png.png" alt="
-        Icono-Carrito" className="imgCarrito"/>
-        <span>0</span>
+    return <div>
+        <h1 className="text-align-center">Carrito</h1>
     </div>
 }
 
